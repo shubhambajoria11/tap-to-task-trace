@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    /* Base colors */
-    --background: 248 250 252;
+    /* Base colors - Clean white/gray theme */
+    --background: 255 255 255;
     --foreground: 15 23 42;
 
     /* Surface colors */
@@ -17,21 +17,21 @@
     --popover: 255 255 255;
     --popover-foreground: 51 65 85;
 
-    /* Brand colors - Tech blue to purple gradient theme */
-    --primary: 239 68 68;
+    /* Brand colors - Modern blue to purple gradient theme */
+    --primary: 99 102 241;
     --primary-foreground: 255 255 255;
-    --primary-light: 248 113 113;
-    --primary-glow: 251 146 60;
+    --primary-light: 129 140 248;
+    --primary-glow: 147 51 234;
 
-    /* Secondary tech colors */
-    --secondary: 241 245 249;
+    /* Secondary colors */
+    --secondary: 248 250 252;
     --secondary-foreground: 51 65 85;
 
-    --muted: 248 250 252;
+    --muted: 241 245 249;
     --muted-foreground: 100 116 139;
 
-    --accent: 226 232 240;
-    --accent-foreground: 51 65 85;
+    --accent: 240 246 255;
+    --accent-foreground: 30 64 175;
 
     /* Status colors */
     --destructive: 239 68 68;
@@ -46,7 +46,7 @@
     /* Interactive elements */
     --border: 226 232 240;
     --input: 226 232 240;
-    --ring: 239 68 68;
+    --ring: 99 102 241;
 
     /* Layout */
     --radius: 0.75rem;
